@@ -1,0 +1,10 @@
+{
+  "extends": ["sandbox/next", "./react.json"],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["apps/*/next.config.js"] }
+    ]
+  },
+  "settings": { "next": { "rootDir": ["apps/*"] } }
+}

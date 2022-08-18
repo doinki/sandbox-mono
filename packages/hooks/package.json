@@ -1,0 +1,25 @@
+{
+  "main": "src/index.ts",
+  "name": "hooks",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --cache --fix ."
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^8.22.0",
+    "eslint-config-custom": "workspace:^",
+    "jest": "^28.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsconfig": "workspace:^",
+    "typescript": "^4.7.4"
+  }
+}

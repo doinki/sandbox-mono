@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["sandbox/base", "sandbox/jest", "sandbox/prettier"],
+  "rules": {
+    "import/prefer-default-export": "off"
+  },
+  "settings": { "jest": { "version": 28 } }
+}

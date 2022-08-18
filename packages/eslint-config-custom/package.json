@@ -1,0 +1,17 @@
+{
+  "exports": {
+    "./base": "./base.json",
+    "./next": "./next.json",
+    "./react": "./react.json",
+    "./package.json": "./package.json"
+  },
+  "name": "eslint-config-custom",
+  "private": true,
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "eslint-config-sandbox": "^1.5.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "exports": {
+    "./base": "./base.json",
+    "./next": "./next.json",
+    "./react": "./react.json",
+    "./package.json": "./package.json"
+  },
+  "name": "tsconfig",
+  "private": true
+}
