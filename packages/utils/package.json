@@ -6,7 +6,7 @@
     "lint": "eslint --cache --fix ."
   },
   "peerDependencies": {
-    "axios": "^0.0.0",
+    "axios": "^0.27.0",
     "typescript": "^4.0.0"
   },
   "devDependencies": {

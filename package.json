@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "a": "yarn workspace a",
+    "b": "yarn workspace b",
     "custom": "yarn workspace eslint-config-custom",
     "hooks": "yarn workspace hooks",
     "tsconfig": "yarn workspace tsconfig",
@@ -18,7 +19,8 @@
   "resolutions": {
     "@types/node": "^16.0.0",
     "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "postcss": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^8.22.0",

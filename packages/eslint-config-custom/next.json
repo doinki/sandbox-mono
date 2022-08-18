@@ -1,5 +1,6 @@
 {
-  "extends": ["sandbox/next", "./react.json"],
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["sandbox/next", "sandbox/tailwindcss", "./react.json"],
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",
