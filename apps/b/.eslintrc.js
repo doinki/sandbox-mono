@@ -4,7 +4,10 @@ module.exports = {
   root: true,
   settings: {
     'import/resolver': {
-      typescript: { project: require.resolve('./tsconfig.json') },
+      typescript: {
+        alwaysTryTypes: true,
+        project: require.resolve('./tsconfig.json'),
+      },
     },
   },
 };
