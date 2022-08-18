@@ -8,6 +8,7 @@
     "tsconfig": "yarn workspace tsconfig",
     "ui": "yarn workspace ui",
     "utils": "yarn workspace utils",
+    "lint": "yarn workspaces foreach -pv run lint",
     "prepare:husky": "husky install"
   },
   "workspaces": [
