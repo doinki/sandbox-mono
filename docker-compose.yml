@@ -1,0 +1,9 @@
+services:
+  a:
+    build:
+      context: .
+      dockerfile: apps/a/Dockerfile
+  b:
+    build:
+      context: .
+      dockerfile: apps/b/Dockerfile

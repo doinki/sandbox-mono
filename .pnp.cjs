@@ -2729,7 +2729,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["browserslist", "npm:4.21.3"],\
             ["caniuse-lite", "npm:1.0.30001378"],\
-            ["electron-to-chromium", "npm:1.4.224"],\
+            ["electron-to-chromium", "npm:1.4.225"],\
             ["node-releases", "npm:2.0.6"],\
             ["update-browserslist-db", "virtual:7dabe86a57e66f38602a3318a9a679c09cef5315077ee4afa3dbf7e16ac6eadfd7834360e07fea78c56290801aa035a0803a3e03041c77287c222df384f2a179#npm:1.0.5"]\
           ],\
@@ -3387,10 +3387,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["electron-to-chromium", [\
-        ["npm:1.4.224", {\
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.224-99ed681793-c28eeab10e.zip/node_modules/electron-to-chromium/",\
+        ["npm:1.4.225", {\
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.225-362ad6ae1b-54b5c5550e.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
-            ["electron-to-chromium", "npm:1.4.224"]\
+            ["electron-to-chromium", "npm:1.4.225"]\
           ],\
           "linkType": "HARD"\
         }]\
