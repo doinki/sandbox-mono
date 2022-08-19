@@ -1,6 +1,10 @@
 {
   "packageManager": "yarn@3.2.2",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "a": "yarn workspace a",
     "b": "yarn workspace b",
@@ -12,10 +16,6 @@
     "lint": "yarn workspaces foreach -pv run lint",
     "prepare:husky": "husky install"
   },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "resolutions": {
     "@types/node": "^16.0.0",
     "@types/react": "^18.0.0",
