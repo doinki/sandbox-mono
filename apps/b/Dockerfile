@@ -5,7 +5,9 @@ WORKDIR /app
 COPY . .
 RUN yarn install --immutable --immutable-cache
 RUN yarn b build
-RUN yarn cache clean && yarn workspaces focus --production b
+RUN yarn cache clean
+RUN yarn workspaces focus --production b
+RUN rm -rf .yarn/unplugged .yarn/sdks
 
 FROM node:16-alpine AS runner
 WORKDIR /app
