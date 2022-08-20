@@ -3,6 +3,7 @@
   "name": "utils",
   "private": true,
   "scripts": {
+    "test": "jest",
     "lint": "eslint --cache --fix ."
   },
   "peerDependencies": {
@@ -10,8 +11,10 @@
     "typescript": "^4.0.0"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.241",
+    "@swc/jest": "^0.2.22",
     "@types/jest": "^28.1.7",
-    "@types/node": "^16.11.49",
+    "@types/node": "^16.11.51",
     "axios": "^0.27.2",
     "eslint": "^8.22.0",
     "eslint-config-custom": "workspace:^",

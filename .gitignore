@@ -44,5 +44,6 @@ yarn-error.log*
 
 @next-swc-*
 !@next-swc-linux-x64-musl-*
+@swc-core-*
 
 .eslintcache

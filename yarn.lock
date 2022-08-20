@@ -541,6 +541,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/create-cache-key-function@npm:^27.4.2":
+  version: 27.5.1
+  resolution: "@jest/create-cache-key-function@npm:27.5.1"
+  dependencies:
+    "@jest/types": ^27.5.1
+  checksum: a6c3a8c769aca6f66f5dc80f1c77e66980b4f213a6b2a15a92ba3595f032848a1261c06c9c798dcf2b672b1ffbefad5085af89d130548741c85ddbe0cf4284e7
+  languageName: node
+  linkType: hard
+
 "@jest/environment@npm:^28.1.3":
   version: 28.1.3
   resolution: "@jest/environment@npm:28.1.3"
@@ -699,6 +708,19 @@ __metadata:
     slash: ^3.0.0
     write-file-atomic: ^4.0.1
   checksum: dadf618936e0aa84342f07f532801d5bed43cdf95d1417b929e4f8782c872cff1adc84096d5a287a796d0039a2691c06d8450cce5a713a8b52fbb9f872a1e760
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/types@npm:27.5.1"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^16.0.0
+    chalk: ^4.0.0
+  checksum: d1f43cc946d87543ddd79d49547aab2399481d34025d5c5f2025d3d99c573e1d9832fa83cef25e9d9b07a8583500229d15bbb07b8e233d127d911d133e2f14b1
   languageName: node
   linkType: hard
 
@@ -977,12 +999,183 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-android-arm-eabi@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-android-arm-eabi@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.122
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-android-arm64@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-android-arm64@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.130
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-arm64@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-darwin-arm64@npm:1.2.241"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-darwin-x64@npm:1.2.241"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-freebsd-x64@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-freebsd-x64@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.130
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm-gnueabihf@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.130
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.2.241"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-musl@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-linux-arm64-musl@npm:1.2.241"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-linux-x64-gnu@npm:1.2.241"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-musl@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-linux-x64-musl@npm:1.2.241"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.130
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-ia32-msvc@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.2.241"
+  dependencies:
+    "@swc/wasm": 1.2.130
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core-win32-x64-msvc@npm:1.2.241"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core@npm:^1.2.241":
+  version: 1.2.241
+  resolution: "@swc/core@npm:1.2.241"
+  dependencies:
+    "@swc/core-android-arm-eabi": 1.2.241
+    "@swc/core-android-arm64": 1.2.241
+    "@swc/core-darwin-arm64": 1.2.241
+    "@swc/core-darwin-x64": 1.2.241
+    "@swc/core-freebsd-x64": 1.2.241
+    "@swc/core-linux-arm-gnueabihf": 1.2.241
+    "@swc/core-linux-arm64-gnu": 1.2.241
+    "@swc/core-linux-arm64-musl": 1.2.241
+    "@swc/core-linux-x64-gnu": 1.2.241
+    "@swc/core-linux-x64-musl": 1.2.241
+    "@swc/core-win32-arm64-msvc": 1.2.241
+    "@swc/core-win32-ia32-msvc": 1.2.241
+    "@swc/core-win32-x64-msvc": 1.2.241
+  dependenciesMeta:
+    "@swc/core-android-arm-eabi":
+      optional: true
+    "@swc/core-android-arm64":
+      optional: true
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-freebsd-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  bin:
+    swcx: run_swcx.js
+  checksum: 06c181bee327da23f89497d1c13d1c86e0f0aa3f3623350bda296ae00c3a0469ad39ff21a20f5cb133ba4c81e97e74b09a3bacb3dab6cc6c4a6f7f4ca8d53dc7
+  languageName: node
+  linkType: hard
+
 "@swc/helpers@npm:0.4.3":
   version: 0.4.3
   resolution: "@swc/helpers@npm:0.4.3"
   dependencies:
     tslib: ^2.4.0
   checksum: 5c2f173e950dd3929d84ae48b3586a274d5a874e7cf2013b3d8081e4f8c723fa3a4d4e63b263e84bb7f06431f87b640e91a12655410463c81a3dc2bbc15eceda
+  languageName: node
+  linkType: hard
+
+"@swc/jest@npm:^0.2.22":
+  version: 0.2.22
+  resolution: "@swc/jest@npm:0.2.22"
+  dependencies:
+    "@jest/create-cache-key-function": ^27.4.2
+  peerDependencies:
+    "@swc/core": "*"
+  checksum: c624cfcc9325a719fc7d811536011c4bde0c63c808827b47d7bbcc57621323146cb3891d8702fd01c1bebfc54a9148692f772af4db8e839eb2c6ccd7850fa5f5
+  languageName: node
+  linkType: hard
+
+"@swc/wasm@npm:^1.0.0":
+  version: 1.2.241
+  resolution: "@swc/wasm@npm:1.2.241"
+  checksum: e87bad5101044d69299cf3217ed50d4d56d3f9f8cee36b94ba39517e76e6d77f580f51146efbf485587fe6deec04f77fde28e4018f90170852da1897c2c3c035
   languageName: node
   linkType: hard
 
@@ -1116,9 +1309,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^16.0.0":
-  version: 16.11.49
-  resolution: "@types/node@npm:16.11.49"
-  checksum: 05545ee49da3b783ab77cddca45db6f4d47861c2bb148a17b774688e1082f20f27177591d140923724bcd8643b32291203f6f1eadba397e394232d4a1e28e07a
+  version: 16.11.51
+  resolution: "@types/node@npm:16.11.51"
+  checksum: b4193d3f9d4240d866db0ca50de4a8c3b68fd81754d0a572712b559497d0f34931e4246ce0b2692afc8f8def9fcc69fd176bd7176af896d07eefa6d78d886425
   languageName: node
   linkType: hard
 
@@ -1174,6 +1367,15 @@ __metadata:
   version: 21.0.0
   resolution: "@types/yargs-parser@npm:21.0.0"
   checksum: b2f4c8d12ac18a567440379909127cf2cec393daffb73f246d0a25df36ea983b93b7e9e824251f959e9f928cbc7c1aab6728d0a0ff15d6145f66cec2be67d9a2
+  languageName: node
+  linkType: hard
+
+"@types/yargs@npm:^16.0.0":
+  version: 16.0.4
+  resolution: "@types/yargs@npm:16.0.4"
+  dependencies:
+    "@types/yargs-parser": "*"
+  checksum: caa21d2c957592fe2184a8368c8cbe5a82a6c2e2f2893722e489f842dc5963293d2f3120bc06fe3933d60a3a0d1e2eb269649fd6b1947fe1820f8841ba611dd9
   languageName: node
   linkType: hard
 
@@ -1319,7 +1521,7 @@ __metadata:
   resolution: "a@workspace:apps/a"
   dependencies:
     "@types/jest": ^28.1.7
-    "@types/node": ^16.11.49
+    "@types/node": ^16.11.51
     "@types/react": ^18.0.17
     "@types/react-dom": ^18.0.6
     autoprefixer: ^10.4.8
@@ -1671,7 +1873,7 @@ __metadata:
   resolution: "b@workspace:apps/b"
   dependencies:
     "@types/jest": ^28.1.7
-    "@types/node": ^16.11.49
+    "@types/node": ^16.11.51
     "@types/react": ^18.0.17
     "@types/react-dom": ^18.0.6
     autoprefixer: ^10.4.8
@@ -1908,9 +2110,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001332, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001373":
-  version: 1.0.30001378
-  resolution: "caniuse-lite@npm:1.0.30001378"
-  checksum: 19f1774da1f62d393ddde55dc091eb3e4f5c5b0ce43f9a9d20e75307a0f329cf8591c836a35a9f6f9fd7c27db7a75e0682245a194acec2e2ba1bc25ef1c3300c
+  version: 1.0.30001379
+  resolution: "caniuse-lite@npm:1.0.30001379"
+  checksum: b0f92841a5279b560d6e5fef667d8320d1e36ad65f6d71d5668a43980f765d1a1f4dabc932996872bdddd65845333fdaba778893842edfb3c22548bf101872b7
   languageName: node
   linkType: hard
 
@@ -2708,8 +2910,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jest@npm:^26.7.0":
-  version: 26.8.3
-  resolution: "eslint-plugin-jest@npm:26.8.3"
+  version: 26.8.4
+  resolution: "eslint-plugin-jest@npm:26.8.4"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -2720,7 +2922,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 3fd8dd06e4b293caf9a06a8767731e7f9fd0e74cae2f5f820484ab01a7435cab340bdcc41295bff71c0448fc92345830a399848acb4aec481e3abbfeebe14e2d
+  checksum: e15cfc8fd5056e6a4915f6872e5eca217c28fb46b1e0a7bae0bac6af3adf17b7f4a7822e00b0651dc2168251e711bba6f8893f02c8417a4ee2c712d87a19d24d
   languageName: node
   linkType: hard
 
@@ -3221,9 +3423,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.1.0":
-  version: 3.2.6
-  resolution: "flatted@npm:3.2.6"
-  checksum: 33b87aa88dfa40ca6ee31d7df61712bbbad3d3c05c132c23e59b9b61d34631b337a18ff2b8dc5553acdc871ec72b741e485f78969cf006124a3f57174de29a0e
+  version: 3.2.7
+  resolution: "flatted@npm:3.2.7"
+  checksum: 427633049d55bdb80201c68f7eb1cbd533e03eac541f97d3aecab8c5526f12a20ccecaeede08b57503e772c769e7f8680b37e8d482d1e5f8d7e2194687f9ea35
   languageName: node
   linkType: hard
 
@@ -6666,8 +6868,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "utils@workspace:packages/utils"
   dependencies:
+    "@swc/core": ^1.2.241
+    "@swc/jest": ^0.2.22
     "@types/jest": ^28.1.7
-    "@types/node": ^16.11.49
+    "@types/node": ^16.11.51
     axios: ^0.27.2
     eslint: ^8.22.0
     eslint-config-custom: "workspace:^"

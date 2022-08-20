@@ -17,6 +17,7 @@
     "prepare:husky": "husky install"
   },
   "resolutions": {
+    "@swc/wasm": "^1.0.0",
     "@types/node": "^16.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
