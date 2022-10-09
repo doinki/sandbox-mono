@@ -12,6 +12,6 @@
     "typescript": "^4.0.0"
   },
   "dependencies": {
-    "eslint-config-sandbox": "^1.5.0"
+    "eslint-config-sandbox": "^1.5.1"
   }
 }
